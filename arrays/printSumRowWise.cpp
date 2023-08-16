@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int printSumRowWise(int arr[][3], int rows, int cols){
+void printSumRowWise(int arr[][3], int rows, int cols){
 
     
 
@@ -26,7 +26,7 @@ int main(){
         cout<<endl;
     }
 
-    return printSumRowWise(arr,rows,cols);
+   printSumRowWise(arr,rows,cols);
 
 
     return 0;
